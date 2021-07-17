@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#landing {
+  background: url("/img/bg.jpg");
+  height: 100vh;
+}
+
+/* Navbar Design */
+.navbar {
+  padding: 2% 8%;
+}
+.navbar-nav {
+  padding: 5% 0%;
+}
+.company-name {
+  font-size: 2rem;
+  color: white !important;
+}
+.navbar-brand img {
+  padding: 7%;
+  border-radius: 100%;
+}
+.navbar-item {
+  padding: 0 5% 2% 0;
+}
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0 2rem 0 0 !important;
+  color: white !important;
+}
+
+/* Tag line */
+
+.tagline {
+  padding: 0% 12%;
+}
+.tagline h1 {
+  padding-bottom: 12%;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+}
+.tagline button {
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  color: grey;
+  padding: 2% 14%;
+  background-color: white;
+  margin-bottom: 15%;
+}
+
+/* Schedule section */
+.cta {
+  padding: 8% 6% 0 10%;
+}
+.cta h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.cta p {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.cta button {
+  color: white;
+  background-color: rgb(46, 45, 45);
+  padding: 2% 14%;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+}
+
+.pic-container {
+  padding: 7% 3% 4% 4%;
+}
+.pic-container img {
+  padding: 2%;
+}
+
+/* services */
+
+.services-left {
+  background-color: rgb(226, 210, 210);
+  padding: 8% 12%;
+}
+.services-left h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.services-left p {
+  font-size: 1.3rem;
+  padding-bottom: 4rem;
+}
+.services-left button {
+  color: white;
+  background-color: rgb(46, 45, 45);
+  padding: 2% 14%;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+}
+.services-right img {
+  height: 100%;
+}
+#testimonials {
+  background-color: #545871;
+  text-align: center;
+}
+.card-testemonial {
+  flex-direction: row;
+  text-align: left;
+  width: 90% !important;
+  border-radius: 2%;
+  padding: 2% 3%;
+  margin: 7% 6% 1%;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 2%;
+}
+.card-text {
+  font-size: 1.1rem;
+}
+#testimonials h1 {
+  color: white;
+  padding: 7% 0 2%;
+}
+#testimonials button {
+  background-color: #ebd0ce;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  padding: 1% 4%;
+  margin: 7% 0%;
+}
+#pricing {
+  text-align: center;
+}
+#pricing h1 {
+  margin: 5% 0% 2%;
+}
+.pricing-tag {
+  margin: 0 31%;
+}
+.pricing-card {
+  padding: 5% 6%;
+}
+.card-footer h1 {
+  font-weight: bolder;
+}
+.card-footer p {
+  font-size: 0.8rem;
+}
+#pricing button {
+  color: white;
+  background-color: rgb(46, 45, 45);
+  padding: 1% 4%;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  margin-bottom: 7%;
+}
+#footer {
+  text-align: center;
+  padding: 5%;
+  background-color: #f7eceb;
+}
+#footer p {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .card {
+    margin-bottom: 6%;
+  }
+  .pic-container {
+    text-align: center;
+  }
+  .cta {
+    text-align: center;
+  }
+  .tagline {
+    text-align: center;
+  }
+  #services {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1290px) and (min-width: 991px) {
+  .pic-container {
+    padding: 15% 3% 4% 4%;
+  }
+  .pic-container img {
+    width: 40%;
+  }
+  .row button {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    margin-bottom: 6%;
+  }
+}
+@media screen and (min-width: 400px) {
+  .row {
+    text-align: center;
+  }
+}
