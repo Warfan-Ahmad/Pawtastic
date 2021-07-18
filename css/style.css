@@ -208,4 +208,11 @@
   .row {
     text-align: center;
   }
+  .card-testemonial{
+    padding: 2%;
+  }
+  .card-testemonial img{
+    /* width: 20%;
+    height: 20%; */
+  }
 }
