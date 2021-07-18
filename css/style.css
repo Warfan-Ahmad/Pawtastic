@@ -3,7 +3,7 @@
   margin: 0;
 }
 #landing {
-  background-image: url("/img/bg.jpg");
+  background-image: url("https://github.com/Warfan-Ahmad/Pawtastic/tree/main/img/bg.jpg");
   height: 100vh;
 }
 
@@ -208,10 +208,10 @@
   .row {
     text-align: center;
   }
-  .card-testemonial{
+  .card-testemonial {
     padding: 2%;
   }
-  .card-testemonial img{
+  .card-testemonial img {
     /* width: 20%;
     height: 20%; */
   }
