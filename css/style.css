@@ -3,7 +3,6 @@
   margin: 0;
 }
 #landing {
-  
   height: 100vh;
 }
 
@@ -170,49 +169,38 @@
 #footer p {
   font-size: 1.5rem;
 }
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .card {
-    margin-bottom: 6%;
-  }
+
+@media screen and (max-width: 1276px) {
   .pic-container {
+    padding: 8% 0% 15%;
+  }
+  .pic-container img {
+    width: 42%;
+  }
+}
+@media screen and (max-width: 990px) {
+  #landing {
     text-align: center;
   }
-  .cta {
-    text-align: center;
-  }
-  .tagline {
+  #schedule {
     text-align: center;
   }
   #services {
     text-align: center;
   }
-}
-
-@media screen and (max-width: 1290px) and (min-width: 991px) {
-  .pic-container {
-    padding: 15% 3% 4% 4%;
-  }
-  .pic-container img {
-    width: 40%;
-  }
-  .row button {
-    margin-bottom: 10%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .card {
-    margin-bottom: 6%;
-  }
-}
-@media screen and (min-width: 400px) {
-  .row {
+  #testimonials {
     text-align: center;
   }
-  .card-testemonial {
-    padding: 2%;
+  .pic-container {
+    width: 71%;
+    margin: auto;
   }
-  .card-testemonial img {
-    /* width: 20%;
-    height: 20%; */
+  .pricing-card .card {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .services-right img {
+    width: 70%;
   }
 }
