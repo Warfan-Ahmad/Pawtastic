@@ -3,7 +3,8 @@
   margin: 0;
 }
 #landing {
-  background: url("https://github.com/Warfan-Ahmad/Pawtastic/tree/main/img\bg.jpg");
+  z-index:999;
+  background: url("./img/bg.jpg");
   height: 100vh;
 }
 
