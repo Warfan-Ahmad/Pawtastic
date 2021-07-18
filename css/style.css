@@ -203,4 +203,13 @@
   .services-right img {
     width: 70%;
   }
+  .company-name {
+    font-size: 1.5rem;
+  }
+  .tagline {
+    padding-top: 10%;
+  }
+  .company-name img{
+    width: 40%;
+  }
 }
